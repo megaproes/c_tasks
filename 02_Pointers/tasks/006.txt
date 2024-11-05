@@ -1,0 +1,23 @@
+Task 6: Union with Type Tracking
+
+1. Description: Create a union to store either an integer, a float, or a pointer, 
+with a type tracking field to determine what kind of data is stored. 
+Write functions to set and get values from this union.
+
+Constraints:
+
+    Use a enum to track the type of value currently stored.
+    Write functions to safely set the union value and get it based on the type.
+
+Structure and Enum Definition:
+
+enum DataType { INTEGER, FLOAT, POINTER, NONE };
+
+struct DataHolder {
+    enum DataType type;
+    union {
+        int i;
+        float f;
+        void *p;
+    } data;
+};

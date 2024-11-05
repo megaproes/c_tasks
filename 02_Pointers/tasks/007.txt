@@ -1,0 +1,12 @@
+7. Write a function called dynamicArray()
+
+Write a function dynamicArray() that:
+
+    Takes an integer n as input, representing the initial size of an array.
+    Dynamically allocates memory for an array of integers with n elements using malloc().
+    Initializes each element of the array with its index value (i.e., array[i] = i).
+
+The function should return a pointer to the newly allocated array.
+
+Note: Ensure the function handles memory allocation failure properly 
+by checking if malloc() returns NULL, and returning NULL if allocation fails.

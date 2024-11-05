@@ -1,0 +1,14 @@
+8. Implement a function called resizeArray()
+
+Write a function resizeArray() that:
+
+    1) Takes a pointer to an integer array, an integer currentSize (the current size of the array), and an integer newSize.
+    2) Resizes the array to newSize elements using realloc() and fills any new elements 
+    	  with 0 if newSize is larger than currentSize.
+    3) If newSize is smaller than currentSize, the array should simply be truncated.
+
+The function should return a pointer to the resized array. 
+Ensure proper error handling in case realloc() fails.
+
+Example: If the initial array is {0, 1, 2, 3} with currentSize = 4, 
+and newSize = 6, the function should return {0, 1, 2, 3, 0, 0}.

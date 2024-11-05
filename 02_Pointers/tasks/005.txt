@@ -1,0 +1,22 @@
+Task 5: Flexible Array Member in a Struct
+
+1. Description: Write a function that allocates memory for a struct with a 
+flexible array member and initializes its values. The structure should 
+contain a fixed-size integer field and a flexible array of integers.
+
+Constraints:
+
+    The function should allocate enough memory for n flexible array elements.
+    Handle potential allocation failures gracefully.
+
+Structure Definition:
+
+struct FlexArray {
+    int count;
+    int values[];
+};
+
+Example:
+
+    Input: n = 3, values {5, 10, 15}
+    Output: A dynamically allocated struct with count = 3 and values = {5, 10, 15}.

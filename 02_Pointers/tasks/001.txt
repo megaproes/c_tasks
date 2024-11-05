@@ -1,0 +1,21 @@
+Task 1: In-Place Array Rotation
+
+1. Description: Write a function to rotate an array of integers in-place to the right by n positions. 
+The array should be rotated in-place without allocating additional memory proportional 
+to the size of the array (i.e., only a small constant amount of extra storage may be used).
+
+Constraints:
+
+    The function should handle both positive and negative values for n.
+    When n is negative, rotate the array to the left by |n| positions.
+    Consider potential pitfalls with memory overlap if n exceeds the array length.
+
+Example:
+
+    Input: arr = {1, 2, 3, 4, 5}, length = 5, n = 2
+
+    Output: arr = {4, 5, 1, 2, 3}
+
+    Input: arr = {1, 2, 3, 4, 5}, length = 5, n = -2
+
+    Output: arr = {3, 4, 5, 1, 2}

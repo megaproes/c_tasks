@@ -1,0 +1,11 @@
+5. Write a function called strToFloat()
+
+Write a function called strToFloat() that converts a 
+character string into a floating-point value. 
+Have the function accept an optional leading minus sign.
+
+For example, the call:
+
+	strToFloat("-867.6921");
+
+should return the value -867.6921.

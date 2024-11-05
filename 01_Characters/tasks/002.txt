@@ -1,0 +1,23 @@
+Write a function called findString() to determine if one character 
+string exists inside another string.
+
+The function should be called as follows:
+	findString(source, searchString);
+
+where:
+    The first argument, source, is the character string that is to be searched.
+    The second argument, searchString, is the string you are interested in finding.
+
+If the function finds the specified string, it should return the location 
+in the source string where searchString was found. 
+If the function does not find searchString, it should return -1.
+
+For example, the call:
+
+index = findString("a chatterbox", "hat");
+
+searches the string "a chatterbox" for the string "hat".
+
+Since "hat" does exist inside the source string, the function 
+returns 3 to indicate the starting position inside the source 
+string where "hat" was found.

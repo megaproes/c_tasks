@@ -1,0 +1,3 @@
+int *dynamicArray(int n)
+{
+}

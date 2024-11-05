@@ -1,0 +1,5 @@
+7. Write a function called intToStr()
+
+Write a function called intToStr() that converts 
+an integer value into a character string. Ensure the 
+function handles negative integers properly.

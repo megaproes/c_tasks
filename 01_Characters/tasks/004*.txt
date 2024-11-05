@@ -1,0 +1,5 @@
+4. Write the strToInt() function that converts string to signed number (integer)
+
+Write the strToInt() function so that if the first 
+character of the string is a minus sign, the value that 
+follows is taken as a negative number.

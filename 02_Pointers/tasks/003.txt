@@ -1,0 +1,14 @@
+Task 3: Double-Linked List Node Removal with Memory Management
+
+1. Description: Write a function to remove a given node from a doubly linked list and properly manage the memory. 
+The function should adjust the neighboring nodes' pointers and release the memory for the given node.
+
+Constraints:
+
+    The function must handle the edge cases of removing from an empty list, removing the head, and removing the tail.
+    Consider potential pitfalls with handling pointers for nodes at the boundaries.
+
+Example:
+
+    Given a doubly linked list with nodes containing 1 <-> 2 <-> 3 <-> 4:
+        Removing the node containing 3 should yield 1 <-> 2 <-> 4.

@@ -1,0 +1,1 @@
+void freeArray(int **array) {}

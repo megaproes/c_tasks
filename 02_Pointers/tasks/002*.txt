@@ -1,0 +1,14 @@
+Task 2: Memory Buffer Segmentation
+
+1. Description: Write a function to partition a given memory buffer into a given number of 
+segments of equal size. The function should take a buffer and a segment count as inputs, 
+and populate an array of pointers, each pointing to the start of a segment.
+
+Constraints:
+    If the buffer size isn't exactly divisible by the number of segments, the last segment should include the remainder.
+    Ensure that accessing segments out of bounds raises appropriate errors.
+
+Example:
+
+    Input: buffer = {0x1, 0x2, 0x3, 0x4, 0x5, 0x6}, buffer_size = 6, num_segments = 2
+    Output: segments = {pointer to buffer[0], pointer to buffer[3]}

@@ -1,0 +1,11 @@
+9. Write a function called freeArray()
+
+Write a function freeArray() that:
+
+    Takes a pointer to a dynamically allocated array and frees the memory allocated to it.
+    Sets the pointer to NULL after deallocation to avoid dangling pointers.
+
+Use this function to safely free memory for any dynamically allocated array that is no longer needed.
+
+Hint: To ensure the original pointer in the calling function is set to NULL, 
+pass the address of the pointer to freeArray().

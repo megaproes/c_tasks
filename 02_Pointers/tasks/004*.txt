@@ -1,0 +1,19 @@
+Task 4: Dynamic Dispatcher with Function Pointers
+
+1. Description: Write a dynamic dispatcher function that uses function pointers to 
+execute a series of commands. The dispatcher should accept an array 
+of function pointers along with an array of arguments, execute each 
+function, and store the return values.
+
+Constraints:
+
+    The functions will all take a single integer argument and return an integer.
+    The dispatcher should be capable of handling different functions dynamically.
+    Handle possible NULL function pointers gracefully.
+
+Example:
+
+    Given function pointers:
+        f1(int x) { return x + 10; }
+        f2(int x) { return x * 2; }
+    If called with commands {f1, f2}, and arguments {3, 4}, the dispatcher should return results {13, 8}.
